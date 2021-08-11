@@ -1,0 +1,58 @@
+{
+  "manas": [
+    {
+      "id": 1,
+      "title": "25"
+    }
+  ],
+  "magics": [
+    {
+      "id": 1,
+      "title": "FIRE"
+    },
+    {
+      "id": 2,
+      "title": "WATER"
+    },
+    {
+      "id": 3,
+      "title": "EARTH"
+    },
+    {
+      "id": 4,
+      "title": "LIFE"
+    },
+    {
+      "id": 5,
+      "title": "DEATH"
+    },
+    {
+      "id": 6,
+      "title": "DRAGON"
+    }
+  ],
+  "roles": [
+    {
+      "title": "STANDARD"
+    }
+  ],
+  "strategies": [
+    {
+      "id": 1,
+      "starQtd": 3,
+      "manaLimit": 25,
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 },
+        { "name": "Captain Spirit", "level": 1 }
+      ]
+    }
+  ]
+}
