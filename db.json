@@ -44,15 +44,80 @@
       "magicType": "FIRE",
       "roleType": "STANDARD",
       "cards": [
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 },
-        { "name": "Captain Spirit", "level": 1 }
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        },
+        {
+          "name": "Captain Spirit",
+          "level": 1
+        }
       ]
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "name": "PIRATE CAPTAIN",
+      "level": 1,
+      "magicType": "WATER",
+      "tumbnail": "http://localhost:3001/assets/images/l1-pirate-captain.png"
+    }
+  ],
+  "level": [
+    {
+      "title": "1"
+    },
+    {
+      "title": "2"
+    },
+    {
+      "title": "3"
+    },
+    {
+      "title": "4"
+    },
+    {
+      "title": "5"
+    },
+    {
+      "title": "6"
+    },
+    {
+      "title": "7"
+    },
+    {
+      "title": "8"
+    },
+    {
+      "title": "9"
+    },
+    {
+      "title": "10"
     }
   ]
 }

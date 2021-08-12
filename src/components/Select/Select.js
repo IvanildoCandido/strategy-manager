@@ -2,10 +2,11 @@ import { Container } from './styled';
 import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 
-function Select({ options, label }) {
+function Select({ options, label, setValue }) {
   return (
     <Container>
       <Autocomplete
+        onChange={(event, newValue) => setValue(newValue.title)}
         options={options}
         getOptionLabel={(option) => option.title}
         style={{ width: 300 }}

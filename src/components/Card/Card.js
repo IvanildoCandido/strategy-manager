@@ -2,7 +2,7 @@ import { Container, Tumbnail } from './styled';
 import { FiPlusCircle } from 'react-icons/fi';
 import { useState } from 'react';
 
-function Card({ size, position, type }) {
+function Card({ size, position, type, setValue }) {
   const [filePath, setFilePath] = useState('');
   const changeFile = (target) => {
     const file = document.getElementById(`card-${position}`);
@@ -16,7 +16,6 @@ function Card({ size, position, type }) {
       //Exibir Modal
     }
   };
-
   return (
     <Container size={size} onClick={({ target }) => cardClick(target)}>
       {filePath !== '' && (
@@ -29,7 +28,10 @@ function Card({ size, position, type }) {
         id={`card-${position}`}
         type="file"
         hidden={true}
-        onChange={({ target }) => setFilePath(target.files[0].name)}
+        onChange={({ target }) => {
+          setFilePath(target.files[0].name);
+          setValue(target.files[0].name);
+        }}
       />
       <FiPlusCircle />
     </Container>

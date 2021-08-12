@@ -5,6 +5,7 @@ export const Container = styled.div`
     margin: 0 15px;
     font-size: 50px;
     cursor: pointer;
+    outline: 0;
   }
   .icons:hover {
     transform: scale(1.3);

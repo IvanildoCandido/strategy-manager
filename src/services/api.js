@@ -13,3 +13,12 @@ export const getManas = async () => {
 export const getRoles = async () => {
   return api.get('/roles');
 };
+export const getCards = async () => {
+  return api.get('/cards');
+};
+export const getLevels = async () => {
+  return api.get('/level');
+};
+export const setCard = async (card) => {
+  await api.post('/cards', card);
+};
