@@ -5,6 +5,7 @@ import { BsSearch } from 'react-icons/bs';
 import { useState } from 'react';
 import FormDialog from '../FormDialog/FormDialog';
 import SetCards from '../SetCards/SetCards';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -19,13 +20,17 @@ function Navbar() {
         </FormDialog>
       )}
       <section>
-        <ImTarget data-tip="ADD A STRATEGY" className="icons" />
+        <Link to="/">
+          <ImTarget data-tip="ADD A STRATEGY" className="icons" />
+        </Link>
         <CgCardSpades
           onClick={() => setOpen(!open)}
           data-tip="ADD A CARD"
           className="icons"
         />
-        <BsSearch data-tip="FIND A WINNER STRATEGY" className="icons" />
+        <Link to="/strategies">
+          <BsSearch data-tip="FIND A WINNER STRATEGY" className="icons" />
+        </Link>
       </section>
     </Container>
   );

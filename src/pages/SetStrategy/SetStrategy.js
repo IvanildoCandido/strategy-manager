@@ -52,7 +52,6 @@ function SetStrategy() {
       level,
     };
     cardsSelection[selected] = itemCard;
-    console.log(cardsSelection);
     setSource(image);
     setOpen(false);
   };

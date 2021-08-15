@@ -9,6 +9,10 @@ function ImageCard({ size, position, setOpen, source, setSelected }) {
     if (target.src === src && target.id === `image-${pos}`) {
       target.setAttribute('src', source);
     }
+    if (position === -1) {
+      const image = document.getElementById(`image-${-1}`);
+      image.setAttribute('src', source);
+    }
   }, [source]);
   const cardClick = async (target) => {
     setOpen(true);

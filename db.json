@@ -36,28 +36,39 @@
       "title": "STANDARD"
     }
   ],
-  "strategies": [],
+  "strategies": [
+    {
+      "starQtd": 0,
+      "manaLimit": "25",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Giant Roc",
+          "level": "1"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1"
+        }
+      ],
+      "id": 1
+    }
+  ],
   "cards": [
     {
-      "id": 1,
-      "name": "PIRATE CAPTAIN",
-      "level": 1,
-      "magicType": "WATER",
-      "tumbnail": "http://localhost:3001/assets/images/l1-pirate-captain.png"
-    },
-    {
-      "name": "ETTIN SPEARMAN",
-      "level": "5",
-      "magicType": "FIRE",
-      "tumbnail": "http://localhost:3001/assets/images/l5-ettin-spearman.png",
-      "id": 2
-    },
-    {
-      "name": "KOBOLD MINER",
+      "name": "Giant Roc",
       "level": "1",
-      "magicType": "FIRE",
-      "tumbnail": "http://localhost:3001/assets/images/1-kobold-miner.png",
-      "id": 3
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Giant%20Roc_lv1.png",
+      "id": 1
+    },
+    {
+      "name": "Kobold Miner",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png",
+      "id": 2
     }
   ],
   "level": [
@@ -90,6 +101,32 @@
     },
     {
       "title": "10"
+    }
+  ],
+  "editions": [
+    {
+      "id": 1,
+      "title": "ALPHA"
+    },
+    {
+      "id": 2,
+      "title": "BETA"
+    },
+    {
+      "id": 3,
+      "title": "PROMO"
+    },
+    {
+      "id": 4,
+      "title": "REWARD"
+    },
+    {
+      "id": 5,
+      "title": "UNTAMED"
+    },
+    {
+      "id": 6,
+      "title": "DICE"
     }
   ]
 }
