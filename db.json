@@ -36,49 +36,7 @@
       "title": "STANDARD"
     }
   ],
-  "strategies": [
-    {
-      "id": 1,
-      "starQtd": 3,
-      "manaLimit": 25,
-      "magicType": "FIRE",
-      "roleType": "STANDARD",
-      "cards": [
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        },
-        {
-          "name": "Captain Spirit",
-          "level": 1
-        }
-      ]
-    }
-  ],
+  "strategies": [],
   "cards": [
     {
       "id": 1,
@@ -86,6 +44,20 @@
       "level": 1,
       "magicType": "WATER",
       "tumbnail": "http://localhost:3001/assets/images/l1-pirate-captain.png"
+    },
+    {
+      "name": "ETTIN SPEARMAN",
+      "level": "5",
+      "magicType": "FIRE",
+      "tumbnail": "http://localhost:3001/assets/images/l5-ettin-spearman.png",
+      "id": 2
+    },
+    {
+      "name": "KOBOLD MINER",
+      "level": "1",
+      "magicType": "FIRE",
+      "tumbnail": "http://localhost:3001/assets/images/1-kobold-miner.png",
+      "id": 3
     }
   ],
   "level": [

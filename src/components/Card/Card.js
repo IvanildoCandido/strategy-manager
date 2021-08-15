@@ -1,20 +1,15 @@
-import { Container, Tumbnail } from './styled';
+import { Container, Tumbnail } from '../ImageCard/styled';
 import { FiPlusCircle } from 'react-icons/fi';
 import { useState } from 'react';
 
-function Card({ size, position, type, setValue }) {
+function Card({ size, position, setValue }) {
   const [filePath, setFilePath] = useState('');
   const changeFile = (target) => {
     const file = document.getElementById(`card-${position}`);
     file.click();
   };
   const cardClick = (target) => {
-    if (type === 'SET') {
-      changeFile(target);
-    }
-    if (type === 'CHANGE') {
-      //Exibir Modal
-    }
+    changeFile(target);
   };
   return (
     <Container size={size} onClick={({ target }) => cardClick(target)}>

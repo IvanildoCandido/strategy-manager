@@ -16,9 +16,19 @@ export const getRoles = async () => {
 export const getCards = async () => {
   return api.get('/cards');
 };
+export const getCardsByLevel = async (level) => {
+  return api.get(`/cards?level=${level}`);
+};
 export const getLevels = async () => {
   return api.get('/level');
 };
 export const setCard = async (card) => {
   await api.post('/cards', card);
+};
+export const getImage = async (name, level) => {
+  const { data } = await api.get(`/cards?name=${name}&level=${level}`);
+  return data[0].tumbnail;
+};
+export const postStrategy = async (strategy) => {
+  await api.post('/strategies', strategy);
 };
