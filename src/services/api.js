@@ -22,6 +22,9 @@ export const getCardsByLevel = async (level) => {
 export const getLevels = async () => {
   return api.get('/level');
 };
+export const getStrategies = async () => {
+  return api.get('/strategies');
+};
 export const setCard = async (card) => {
   await api.post('/cards', card);
 };

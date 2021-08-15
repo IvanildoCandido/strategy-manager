@@ -50,6 +50,7 @@ function SetStrategy() {
     const itemCard = {
       name,
       level,
+      image,
     };
     cardsSelection[selected] = itemCard;
     setSource(image);

@@ -36,41 +36,8 @@
       "title": "STANDARD"
     }
   ],
-  "strategies": [
-    {
-      "starQtd": 0,
-      "manaLimit": "25",
-      "magicType": "FIRE",
-      "roleType": "STANDARD",
-      "cards": [
-        {
-          "name": "Giant Roc",
-          "level": "1"
-        },
-        {
-          "name": "Kobold Miner",
-          "level": "1"
-        }
-      ],
-      "id": 1
-    }
-  ],
-  "cards": [
-    {
-      "name": "Giant Roc",
-      "level": "1",
-      "magicType": "",
-      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Giant%20Roc_lv1.png",
-      "id": 1
-    },
-    {
-      "name": "Kobold Miner",
-      "level": "1",
-      "magicType": "",
-      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png",
-      "id": 2
-    }
-  ],
+  "strategies": [],
+  "cards": [],
   "level": [
     {
       "title": "1"
