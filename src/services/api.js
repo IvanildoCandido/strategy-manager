@@ -11,7 +11,11 @@ export const getMagics = async () => {
   return api.get('/magics');
 };
 export const getManas = async () => {
-  return api.get('/manas');
+  const manas = await api.get('/manas');
+  manas.data.sort((a, b) =>
+    a.title > b.title ? 1 : b.title > a.title ? -1 : 0,
+  );
+  return manas;
 };
 export const getRoles = async () => {
   return api.get('/roles');

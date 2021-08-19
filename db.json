@@ -59,6 +59,10 @@
     {
       "id": 15,
       "title": "24"
+    },
+    {
+      "id": 16,
+      "title": "12"
     }
   ],
   "magics": [
@@ -882,11 +886,6 @@
           "name": "Creeping Ooze",
           "level": "1",
           "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/reward/Creeping%20Ooze_lv1.png"
-        },
-        {
-          "name": "Fire Elemental",
-          "level": "1",
-          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Fire%20Elemental_lv1.png"
         }
       ],
       "id": 21
