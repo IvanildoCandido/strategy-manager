@@ -56,6 +56,9 @@ function SetCards({ setOpen }) {
     getCardsByServer().then((result) => setCards(result));
   }, []);
   useEffect(() => {
+    if (edition === null) {
+      return;
+    }
     getImageFromServer(name, edition, level).then((result) => {
       setSource(result.config.url);
       setTumbnail(result.config.url);

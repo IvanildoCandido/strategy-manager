@@ -6,7 +6,9 @@ function Select({ options, label, setValue }) {
   return (
     <Container>
       <Autocomplete
-        onChange={(event, newValue) => setValue(newValue.title)}
+        onChange={(event, newValue) =>
+          newValue ? setValue(newValue.title) : setValue(null)
+        }
         options={options}
         getOptionLabel={(option) => option.title}
         style={{ width: 300 }}

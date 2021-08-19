@@ -75,3 +75,16 @@ const editionParseName = (edition) => {
       return;
   }
 };
+export const filterStrategies = async (mana, magic, role) => {
+  let URL = '/strategies?';
+  if (mana !== null) {
+    URL += `manaLimit=${mana}`;
+  }
+  if (magic !== null) {
+    URL += `&magicType=${magic}`;
+  }
+  if (role !== null) {
+    URL += `&roleType=${encodeURI(role)}`;
+  }
+  return api.get(URL);
+};

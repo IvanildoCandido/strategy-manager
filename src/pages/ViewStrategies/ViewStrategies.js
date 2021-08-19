@@ -3,12 +3,13 @@ import Navbar from '../../components/Navbar/Navbar';
 import Select from '../../components/Select/Select';
 import StrategyItem from '../../components/StrategyItem/StrategyItem';
 import {
+  filterStrategies,
   getMagics,
   getManas,
   getRoles,
   getStrategies,
 } from '../../services/api';
-import { Container, StrategyArea } from './styled';
+import { BtnFilter, Container, StrategyArea } from './styled';
 
 function ViewStrategies() {
   const [mana, setMana] = useState([]);
@@ -18,6 +19,12 @@ function ViewStrategies() {
   const [manaLimit, setManaLimit] = useState(null);
   const [magicType, setMagicType] = useState(null);
   const [roleType, setRoleType] = useState(null);
+
+  const filter = () => {
+    filterStrategies(manaLimit, magicType, roleType).then((result) =>
+      setStrategies(result.data),
+    );
+  };
 
   useEffect(() => {
     getManas().then((result) => setMana(result.data));
@@ -34,6 +41,7 @@ function ViewStrategies() {
           <Select setValue={setManaLimit} options={mana} label="MANA LIMIT" />
           <Select setValue={setMagicType} options={magics} label="MAGIC TYPE" />
           <Select setValue={setRoleType} options={roles} label="ROLE TYPE" />
+          <BtnFilter onClick={() => filter()}>Filter</BtnFilter>
         </section>
         <section className="card-controls">
           {strategies.length > 0 &&
