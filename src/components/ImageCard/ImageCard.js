@@ -15,6 +15,7 @@ function ImageCard({ size, position, setOpen, source, setSelected }) {
     }
   }, [source]);
   const cardClick = async (target) => {
+    if (position === -1) return;
     setOpen(true);
     setTarget(target);
     setSelected(position);

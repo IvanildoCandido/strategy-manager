@@ -40,6 +40,7 @@ function ViewStrategies() {
             strategies.map((strategy) => {
               return (
                 <StrategyArea>
+                  <h1>{strategy.manaLimit}</h1>
                   {strategy.cards.map((card, index) => (
                     <StrategyItem type={index} image={card.image} />
                   ))}

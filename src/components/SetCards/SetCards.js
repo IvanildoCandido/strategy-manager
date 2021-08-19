@@ -3,6 +3,7 @@ import TextField from '@material-ui/core/TextField';
 import Autocomplete from '@material-ui/lab/Autocomplete';
 import { useEffect, useState } from 'react';
 import {
+  getCardByName,
   getCardsByServer,
   getImageFromServer,
   getLevels,
@@ -24,8 +25,19 @@ function SetCards({ setOpen }) {
   const [magicType, setMagicType] = useState('');
   const [tumbnail, setTumbnail] = useState('');
   const [message, setMessage] = useState(false);
-  const [source, setSource] = useState('');
-  const saveCard = () => {
+  const [error, setError] = useState(false);
+  const [source, setSource] = useState(
+    'http://localhost:3001/assets/no-file.png',
+  );
+  const saveCard = async () => {
+    const { data } = await getCardByName(name);
+    if (data.length > 0) {
+      setError(true);
+      setTimeout(() => {
+        setError(false);
+      }, 2000);
+      return;
+    }
     const card = {
       name,
       level,
@@ -91,6 +103,7 @@ function SetCards({ setOpen }) {
           Save
         </Button>
         {message && <Alert severity="success">Card successfully added!</Alert>}
+        {error && <Alert severity="error">Card already registered!</Alert>}
       </InfoArea>
     </Container>
   );
