@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.736 59.736">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #ffcf2e;
+      }
+
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #382500;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #ffcf2e;
+        stroke-width: 1.195px;
+      }
+    </style>
+  </defs>
+  <g id="img_element_dragon" transform="translate(29.868 29.868)">
+    <g id="Group_432" data-name="Group 432" transform="translate(-29.868 -29.868)">
+      <g id="Group_431" data-name="Group 431">
+        <circle id="Ellipse_181" data-name="Ellipse 181" class="cls-1" cx="29.868" cy="29.868" r="29.868"/>
+        <g id="Ellipse_182" data-name="Ellipse 182" transform="translate(7.168 7.168)">
+          <circle id="Ellipse_61" data-name="Ellipse 61" class="cls-2" cx="22.7" cy="22.7" r="22.7"/>
+          <circle id="Ellipse_62" data-name="Ellipse 62" class="cls-3" cx="22.102" cy="22.102" r="22.102" transform="translate(0.597 0.597)"/>
+        </g>
+        <path id="icon_element_dragon" data-name="icon element dragon" class="cls-4" d="M28.354,23.956c-2.564,8.056-4.046,12.112-4.046,12.112-2.1-6.69-.288-11.482,1.888-14.518A40.8,40.8,0,0,0,21.356,17,10.589,10.589,0,1,0,36.6,29.64C34.442,29.12,31.7,27.548,28.354,23.956Z" transform="translate(3.115 3.31)"/>
+      </g>
+    </g>
+  </g>
+</svg>

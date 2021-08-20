@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.736 59.736">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #1df7ff;
+      }
+
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #00404d;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #1df7ff;
+        stroke-width: 1.195px;
+      }
+    </style>
+  </defs>
+  <g id="img_element_water" transform="translate(29.868 29.868)">
+    <g id="Group_427" data-name="Group 427" transform="translate(-29.868 -29.868)">
+      <circle id="Ellipse_162" data-name="Ellipse 162" class="cls-1" cx="29.868" cy="29.868" r="29.868"/>
+      <g id="Ellipse_163" data-name="Ellipse 163" transform="translate(7.168 7.168)">
+        <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-2" cx="22.7" cy="22.7" r="22.7"/>
+        <circle id="Ellipse_54" data-name="Ellipse 54" class="cls-3" cx="22.102" cy="22.102" r="22.102" transform="translate(0.597 0.597)"/>
+      </g>
+      <g id="Artwork_27" data-name="Artwork 27" transform="translate(19.123 16.729)">
+        <g id="Group_292" data-name="Group 292">
+          <path id="Path_946" data-name="Path 946" class="cls-4" d="M24.348,14.365a3.106,3.106,0,0,0-.521.239l-.076-.059Q24.048,14.446,24.348,14.365Z" transform="translate(-14.498 -13.932)"/>
+          <path id="Path_947" data-name="Path 947" class="cls-4" d="M19.211,17.39a3.189,3.189,0,0,1-.485.529Q18.957,17.653,19.211,17.39Z" transform="translate(-15.477 -13.343)"/>
+          <path id="Path_948" data-name="Path 948" class="cls-4" d="M24.787,14.255c-.179.041-.358.084-.533.13a3.106,3.106,0,0,1,.533-.13Z" transform="translate(-14.4 -13.953)"/>
+          <path id="Path_949" data-name="Path 949" class="cls-4" d="M19.629,16.071a3.048,3.048,0,0,1-.06.4A3.042,3.042,0,0,1,19.629,16.071Z" transform="translate(-15.312 -13.6)"/>
+          <path id="Path_950" data-name="Path 950" class="cls-4" d="M19.211,17.39a3.189,3.189,0,0,1-.485.529Q18.957,17.653,19.211,17.39Z" transform="translate(-15.477 -13.343)"/>
+          <path id="Path_951" data-name="Path 951" class="cls-4" d="M19.629,16.071a3.048,3.048,0,0,1-.06.4A3.042,3.042,0,0,1,19.629,16.071Z" transform="translate(-15.312 -13.6)"/>
+          <path id="Path_952" data-name="Path 952" class="cls-4" d="M36.285,21.458a3.09,3.09,0,0,0,.024-.388,3.143,3.143,0,0,0-2.931-3.136,3.147,3.147,0,0,0-3.831-2.178,3.142,3.142,0,0,0-2.676-1.487,3.192,3.192,0,0,0-.478.036h0c-.179.041-.358.084-.533.13h0a3.106,3.106,0,0,0-.521.239l-.076-.059a3.144,3.144,0,0,0-4.937,1.861,3.046,3.046,0,0,1-.06.4q-.012.133-.012.269a3.13,3.13,0,0,0,.023.379q-.277.256-.538.527a3.189,3.189,0,0,1-.485.529,13.323,13.323,0,0,0,12.625,21.8,8.234,8.234,0,0,1-.194-15.92,3.144,3.144,0,1,0,4.607-3ZM26.306,38.746c-15.394-9.95-4.283-18.653-4.283-18.653-7.675,10.036,4.283,18.651,4.283,18.651-12.939-11.645-.8-18.876-.8-18.876-9.1,9.414.8,18.876.8,18.876S16.668,28.079,28,21.967c0,0-8.3,7.138-1.7,16.776Z" transform="translate(-16.006 -14.002)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

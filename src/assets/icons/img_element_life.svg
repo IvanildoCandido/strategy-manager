@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 59.736 59.736">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.5;
+      }
+
+      .cls-2 {
+        fill: #3b3b3b;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.195px;
+      }
+    </style>
+  </defs>
+  <g id="img_element_life" transform="translate(29.868 29.868)">
+    <g id="Group_429" data-name="Group 429" transform="translate(-29.868 -29.868)">
+      <circle id="Ellipse_168" data-name="Ellipse 168" class="cls-1" cx="29.868" cy="29.868" r="29.868"/>
+      <g id="Ellipse_170" data-name="Ellipse 170" transform="translate(7.168 7.168)">
+        <circle id="Ellipse_57" data-name="Ellipse 57" class="cls-2" cx="22.7" cy="22.7" r="22.7"/>
+        <circle id="Ellipse_58" data-name="Ellipse 58" class="cls-3" cx="22.102" cy="22.102" r="22.102" transform="translate(0.597 0.597)"/>
+      </g>
+      <g id="Artwork_24" data-name="Artwork 24" transform="translate(11.947 11.947)">
+        <path id="Path_1098" data-name="Path 1098" class="cls-4" d="M45.841,27.928l-6.8-1.125A11.279,11.279,0,0,0,29.009,16.576L27.921,10l-1.085,6.552A11.278,11.278,0,0,0,16.552,26.845L10,27.928l6.571,1.09A11.279,11.279,0,0,0,26.8,39.045l1.125,6.721,1.124-6.747a11.28,11.28,0,0,0,9.973-9.962Zm-7.23-1.195-5.572-.922,2.616-5.505a10.831,10.831,0,0,1,2.956,6.42Zm-3.063-6.541L30.04,22.81l-.956-5.8a10.841,10.841,0,0,1,6.463,3.182Zm-8.784-3.208L25.8,22.81l-5.671-2.7a10.836,10.836,0,0,1,6.635-3.13Zm-6.658,3.152,2.7,5.672-5.818.964a10.836,10.836,0,0,1,3.122-6.637Zm-3.094,8.953,5.791.956-2.613,5.5a10.842,10.842,0,0,1-3.178-6.451Zm3.294,6.571,5.5-2.612.925,5.563A10.831,10.831,0,0,1,20.3,35.659Zm8.81,2.923.924-5.537,5.332,2.535A10.837,10.837,0,0,1,29.115,38.584Zm6.451-3.2-2.535-5.333,5.543-.918A10.837,10.837,0,0,1,35.567,35.38Z" transform="translate(-10 -10)"/>
+      </g>
+    </g>
+  </g>
+</svg>

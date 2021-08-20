@@ -15,7 +15,7 @@ export const Container = styled.div`
   box-shadow: 2px 2px 5px #d9d9d9;
   background-color: rgba(0, 0, 0, 0.1);
   font-size: 50px;
-  margin: 10px;
+  margin: 10px 5px;
 `;
 export const Tumbnail = styled.img`
   width: ${(props) => props.size.width + 'px'};
