@@ -63,6 +63,18 @@
     {
       "id": 16,
       "title": "12"
+    },
+    {
+      "id": 17,
+      "title": "17"
+    },
+    {
+      "id": 18,
+      "title": "29"
+    },
+    {
+      "id": 19,
+      "title": "28"
     }
   ],
   "magics": [
@@ -106,6 +118,12 @@
     },
     {
       "title": "BACK TO BASICS"
+    },
+    {
+      "title": "EQUAL OPORTUNITY"
+    },
+    {
+      "title": "EXPLOSIVE WEAPONRY"
     }
   ],
   "strategies": [
@@ -219,7 +237,7 @@
     {
       "starQtd": 0,
       "manaLimit": "14",
-      "magicType": "EARTH",
+      "magicType": "LIFE",
       "roleType": "STANDARD",
       "cards": [
         {
@@ -476,7 +494,7 @@
     },
     {
       "starQtd": 0,
-      "manaLimit": "19",
+      "manaLimit": "18",
       "magicType": "WATER",
       "roleType": "STANDARD",
       "cards": [
@@ -634,40 +652,6 @@
         }
       ],
       "id": 14
-    },
-    {
-      "starQtd": 0,
-      "manaLimit": "16",
-      "magicType": "DEATH",
-      "roleType": "STANDARD",
-      "cards": [
-        {
-          "name": "Zintar Mortalis",
-          "level": "1",
-          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Zintar%20Mortalis_lv1.png"
-        },
-        {
-          "name": "Haunted Spirit",
-          "level": "1",
-          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Haunted%20Spirit_lv1.png"
-        },
-        {
-          "name": "Death Elemental",
-          "level": "1",
-          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Death%20Elemental_lv1.png"
-        },
-        {
-          "name": "Skeleton Assassin",
-          "level": "1",
-          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Skeleton%20Assassin_lv1.png"
-        },
-        {
-          "name": "Undead Badger",
-          "level": "1",
-          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Undead%20Badger_lv1.png"
-        }
-      ],
-      "id": 15
     },
     {
       "starQtd": 0,
@@ -1072,6 +1056,861 @@
         }
       ],
       "id": 26
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "12",
+      "magicType": "EARTH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Lyanna Natura",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Lyanna%20Natura_lv1.png"
+        },
+        {
+          "name": "Stonesplitter Orc",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Stonesplitter%20Orc_lv1.png"
+        },
+        {
+          "name": "Earth Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Earth%20Elemental_lv1.png"
+        }
+      ],
+      "id": 27
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "22",
+      "magicType": "EARTH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Mother Khala",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Mother%20Khala_lv1.png"
+        },
+        {
+          "name": "Shieldbearer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Shieldbearer_lv1.png"
+        },
+        {
+          "name": "Peacebringer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Peacebringer_lv1.png"
+        },
+        {
+          "name": "Divine Healer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Divine%20Healer_lv1.png"
+        },
+        {
+          "name": "Centaur",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Centaur_lv1.png"
+        }
+      ],
+      "id": 28
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "17",
+      "magicType": "DEATH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Zintar Mortalis",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Zintar%20Mortalis_lv1.png"
+        },
+        {
+          "name": "Haunted Spirit",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Haunted%20Spirit_lv1.png"
+        },
+        {
+          "name": "Skeleton Assassin",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Skeleton%20Assassin_lv1.png"
+        },
+        {
+          "name": "Undead Badger",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Undead%20Badger_lv1.png"
+        },
+        {
+          "name": "Twisted Jester",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Twisted%20Jester_lv1.png"
+        }
+      ],
+      "id": 29
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "15",
+      "magicType": "DEATH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Zintar Mortalis",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Zintar%20Mortalis_lv1.png"
+        },
+        {
+          "name": "Haunted Spirit",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Haunted%20Spirit_lv1.png"
+        },
+        {
+          "name": "Twisted Jester",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Twisted%20Jester_lv1.png"
+        },
+        {
+          "name": "Skeleton Assassin",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Skeleton%20Assassin_lv1.png"
+        }
+      ],
+      "id": 30
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "15",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        }
+      ],
+      "id": 31
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "23",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Cerberus",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Cerberus_lv1.png"
+        },
+        {
+          "name": "Fire Beetle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Fire%20Beetle_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Goblin Shaman",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Goblin%20Shaman_lv1.png"
+        }
+      ],
+      "id": 32
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "12",
+      "magicType": "DEATH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Zintar Mortalis",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Zintar%20Mortalis_lv1.png"
+        },
+        {
+          "name": "Haunted Spirit",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Haunted%20Spirit_lv1.png"
+        },
+        {
+          "name": "Death Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Death%20Elemental_lv1.png"
+        },
+        {
+          "name": "Cursed Slimeball",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Cursed%20Slimeball_lv1.png"
+        }
+      ],
+      "id": 33
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "22",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Elven Defender",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Elven%20Defender_lv1.png"
+        },
+        {
+          "name": "Elven Cutthroat",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Elven%20Cutthroat_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        },
+        {
+          "name": "Goblin Shaman",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Goblin%20Shaman_lv1.png"
+        }
+      ],
+      "id": 34
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "13",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Serpentine Soldier",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Serpentine%20Soldier_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        }
+      ],
+      "id": 35
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "23",
+      "magicType": "WATER",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Alric Stormbringer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Alric%20Stormbringer_lv1.png"
+        },
+        {
+          "name": "Frozen Soldier",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Frozen%20Soldier_lv1.png"
+        },
+        {
+          "name": "Water Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Water%20Elemental_lv1.png"
+        },
+        {
+          "name": "Medusa",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Medusa_lv1.png"
+        },
+        {
+          "name": "Sabre Shark",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Sabre%20Shark_lv1.png"
+        },
+        {
+          "name": "Ice Pixie",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Ice%20Pixie_lv1.png"
+        }
+      ],
+      "id": 36
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "17",
+      "magicType": "WATER",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Alric Stormbringer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Alric%20Stormbringer_lv1.png"
+        },
+        {
+          "name": "Serpent of Eld",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpent%20of%20Eld_lv1.png"
+        },
+        {
+          "name": "Water Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Water%20Elemental_lv1.png"
+        },
+        {
+          "name": "Ice Pixie",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Ice%20Pixie_lv1.png"
+        }
+      ],
+      "id": 37
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "25",
+      "magicType": "EARTH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Lyanna Natura",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Lyanna%20Natura_lv1.png"
+        },
+        {
+          "name": "Elven Defender",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Elven%20Defender_lv1.png"
+        },
+        {
+          "name": "Failed Summoner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Failed%20Summoner_lv1.png"
+        },
+        {
+          "name": "Child of the Forest",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Child%20of%20the%20Forest_lv1.png"
+        },
+        {
+          "name": "Goblin Thief",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Goblin%20Thief_lv1.png"
+        },
+        {
+          "name": "Khmer Princess",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Khmer%20Princess_lv1.png"
+        },
+        {
+          "name": "Earth Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Earth%20Elemental_lv1.png"
+        }
+      ],
+      "id": 38
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "12",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Cerberus",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Cerberus_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        }
+      ],
+      "id": 39
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "25",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Fire Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Fire%20Elemental_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Spark Pixies",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Spark%20Pixies_lv1.png"
+        },
+        {
+          "name": "Fire Beetle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Fire%20Beetle_lv1.png"
+        }
+      ],
+      "id": 40
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "29",
+      "magicType": "EARTH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Mother Khala",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Mother%20Khala_lv1.png"
+        },
+        {
+          "name": "Shieldbearer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Shieldbearer_lv1.png"
+        },
+        {
+          "name": "Luminous Eagle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Luminous%20Eagle_lv1.png"
+        },
+        {
+          "name": "Lone Boatman",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Lone%20Boatman_lv1.png"
+        },
+        {
+          "name": "Divine Healer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Divine%20Healer_lv1.png"
+        },
+        {
+          "name": "Peacebringer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Peacebringer_lv1.png"
+        }
+      ],
+      "id": 41
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "19",
+      "magicType": "LIFE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Mother Khala",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Mother%20Khala_lv1.png"
+        },
+        {
+          "name": "Shieldbearer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Shieldbearer_lv1.png"
+        },
+        {
+          "name": "Cave Slug",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Cave%20Slug_lv1.png"
+        },
+        {
+          "name": "Divine Healer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Divine%20Healer_lv1.png"
+        }
+      ],
+      "id": 42
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "25",
+      "magicType": "LIFE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Mother Khala",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Mother%20Khala_lv1.png"
+        },
+        {
+          "name": "Shieldbearer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Shieldbearer_lv1.png"
+        },
+        {
+          "name": "Luminous Eagle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Luminous%20Eagle_lv1.png"
+        },
+        {
+          "name": "Cave Slug",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Cave%20Slug_lv1.png"
+        },
+        {
+          "name": "Divine Healer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Divine%20Healer_lv1.png"
+        }
+      ],
+      "id": 43
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "19",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Pyre",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Pyre_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Goblin Shaman",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Goblin%20Shaman_lv1.png"
+        },
+        {
+          "name": "Fire Beetle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Fire%20Beetle_lv1.png"
+        }
+      ],
+      "id": 44
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "21",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Goblin Shaman",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Goblin%20Shaman_lv1.png"
+        },
+        {
+          "name": "Elven Cutthroat",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Elven%20Cutthroat_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        }
+      ],
+      "id": 45
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "16",
+      "magicType": "DEATH",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Zintar Mortalis",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Zintar%20Mortalis_lv1.png"
+        },
+        {
+          "name": "Haunted Spirit",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Haunted%20Spirit_lv1.png"
+        },
+        {
+          "name": "Undead Badger",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Undead%20Badger_lv1.png"
+        },
+        {
+          "name": "Skeleton Assassin",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Skeleton%20Assassin_lv1.png"
+        },
+        {
+          "name": "Death Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Death%20Elemental_lv1.png"
+        }
+      ],
+      "id": 46
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "16",
+      "magicType": "FIRE",
+      "roleType": "EXPLOSIVE WEAPONRY",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Cerberus",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Cerberus_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        },
+        {
+          "name": "Fire Beetle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Fire%20Beetle_lv1.png"
+        }
+      ],
+      "id": 47
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "30",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Giant Roc",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Giant%20Roc_lv1.png"
+        },
+        {
+          "name": "Kobold Miner",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Kobold%20Miner_lv1.png"
+        },
+        {
+          "name": "Fire Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Fire%20Elemental_lv1.png"
+        },
+        {
+          "name": "Goblin Chariot",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Goblin%20Chariot_lv1.png"
+        },
+        {
+          "name": "Goblin Shaman",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Goblin%20Shaman_lv1.png"
+        }
+      ],
+      "id": 48
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "14",
+      "magicType": "WATER",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Alric Stormbringer",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Alric%20Stormbringer_lv1.png"
+        },
+        {
+          "name": "Spineback Turtle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Spineback%20Turtle_lv1.png"
+        },
+        {
+          "name": "Ice Pixie",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Ice%20Pixie_lv1.png"
+        },
+        {
+          "name": "Medusa",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Medusa_lv1.png"
+        },
+        {
+          "name": "Albatross",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Albatross_lv1.png"
+        }
+      ],
+      "id": 49
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "18",
+      "magicType": "FIRE",
+      "roleType": "STANDARD",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Cerberus",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Cerberus_lv1.png"
+        },
+        {
+          "name": "Serpentine Spy",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Serpentine%20Spy_lv1.png"
+        },
+        {
+          "name": "Fire Elemental",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Fire%20Elemental_lv1.png"
+        },
+        {
+          "name": "Fire Beetle",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Fire%20Beetle_lv1.png"
+        }
+      ],
+      "id": 50
+    },
+    {
+      "starQtd": 0,
+      "manaLimit": "28",
+      "magicType": "FIRE",
+      "roleType": "EQUAL OPORTUNITY",
+      "cards": [
+        {
+          "name": "Malric Inferno",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Malric%20Inferno_lv1.png"
+        },
+        {
+          "name": "Living Lava",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Living%20Lava_lv1.png"
+        },
+        {
+          "name": "Pit Ogre",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Pit%20Ogre_lv1.png"
+        },
+        {
+          "name": "Elven Defender",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Elven%20Defender_lv1.png"
+        },
+        {
+          "name": "Serpentine Soldier",
+          "level": "1",
+          "image": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Serpentine%20Soldier_lv1.png"
+        }
+      ],
+      "id": 51
     }
   ],
   "cards": [
@@ -1452,6 +2291,111 @@
       "magicType": "",
       "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Silvershield%20Paladin_lv1.png",
       "id": 54
+    },
+    {
+      "name": "Stonesplitter Orc",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Stonesplitter%20Orc_lv1.png",
+      "id": 55
+    },
+    {
+      "name": "Earth Elemental",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Earth%20Elemental_lv1.png",
+      "id": 56
+    },
+    {
+      "name": "Divine Healer",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Divine%20Healer_lv1.png",
+      "id": 57
+    },
+    {
+      "name": "Peacebringer",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Peacebringer_lv1.png",
+      "id": 58
+    },
+    {
+      "name": "Centaur",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Centaur_lv1.png",
+      "id": 59
+    },
+    {
+      "name": "Shieldbearer",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Shieldbearer_lv1.png",
+      "id": 60
+    },
+    {
+      "name": "Failed Summoner",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Failed%20Summoner_lv1.png",
+      "id": 61
+    },
+    {
+      "name": "Child of the Forest",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Child%20of%20the%20Forest_lv1.png",
+      "id": 62
+    },
+    {
+      "name": "Khmer Princess",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Khmer%20Princess_lv1.png",
+      "id": 63
+    },
+    {
+      "name": "Luminous Eagle",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Luminous%20Eagle_lv1.png",
+      "id": 64
+    },
+    {
+      "name": "Cave Slug",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Cave%20Slug_lv1.png",
+      "id": 65
+    },
+    {
+      "name": "Giant Roc",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Giant%20Roc_lv1.png",
+      "id": 66
+    },
+    {
+      "name": "Goblin Chariot",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Goblin%20Chariot_lv1.png",
+      "id": 67
+    },
+    {
+      "name": "Albatross",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/untamed/Albatross_lv1.png",
+      "id": 68
+    },
+    {
+      "name": "Pit Ogre",
+      "level": "1",
+      "magicType": "",
+      "tumbnail": "https://d36mxiodymuqjm.cloudfront.net/cards_by_level/beta/Pit%20Ogre_lv1.png",
+      "id": 69
     }
   ],
   "level": [

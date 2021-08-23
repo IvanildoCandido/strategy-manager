@@ -11,9 +11,11 @@ function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <Container>
-      <Logo>
-        Never forget your<span>strategy</span>
-      </Logo>
+      <Link to="/">
+        <Logo>
+          Never forget your<span>strategy</span>
+        </Logo>
+      </Link>
       {open && (
         <FormDialog open={open} setOpen={setOpen}>
           <SetCards setOpen={setOpen} />

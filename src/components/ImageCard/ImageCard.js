@@ -13,7 +13,11 @@ function ImageCard({ size, position, setOpen, source, setSelected }) {
       const image = document.getElementById(`image-${-1}`);
       image.setAttribute('src', source);
     }
-  }, [source]);
+    if (source === -1) {
+      const image = document.getElementById(`image-${position}`);
+      image.setAttribute('src', src);
+    }
+  }, [source]); // eslint-disable-line react-hooks/exhaustive-deps
   const cardClick = async (target) => {
     if (position === -1) return;
     setOpen(true);

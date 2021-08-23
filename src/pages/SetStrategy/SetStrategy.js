@@ -15,7 +15,8 @@ import {
 import { BtnSave, Container } from './styled';
 import { Autocomplete } from '@material-ui/lab';
 import { TextField } from '@material-ui/core';
-const cardsSelection = [];
+import { Alert } from '@material-ui/lab';
+let cardsSelection = [];
 function SetStrategy() {
   const [mana, setMana] = useState([]);
   const [magics, setMagics] = useState([]);
@@ -30,7 +31,7 @@ function SetStrategy() {
   const [source, setSource] = useState('');
   const [selected, setSelected] = useState(-1);
   const [btnActivation, setbtnActivation] = useState(true);
-
+  const [message, setMessage] = useState(false);
   useEffect(() => {
     getManas().then((result) => setMana(result.data));
     getMagics().then((result) => setMagics(result.data));
@@ -56,6 +57,13 @@ function SetStrategy() {
     setSource(image);
     setOpen(false);
   };
+  const clearFields = () => {
+    cardsSelection = [];
+    setSource(-1);
+    setManaLimit(null);
+    setMagicType(null);
+    setRoleType(null);
+  };
   const saveStrategy = async () => {
     const strategy = {
       starQtd: 0,
@@ -65,6 +73,12 @@ function SetStrategy() {
       cards: cardsSelection,
     };
     await postStrategy(strategy);
+    setMessage(true);
+    setTimeout(() => {
+      setMessage(false);
+      setOpen(false);
+      clearFields();
+    }, 2000);
   };
   return (
     <>
@@ -136,6 +150,9 @@ function SetStrategy() {
         <BtnSave disabled={btnActivation} onClick={() => saveStrategy()}>
           SAVE
         </BtnSave>
+        {message && (
+          <Alert severity="success">Strategy successfully added!</Alert>
+        )}
         {open && (
           <FormDialog open={open} setOpen={setOpen}>
             <Select setValue={setLevel} options={levels} label="LEVEL" />
