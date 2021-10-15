@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://54.94.115.170/:3001',
+  baseURL: 'http://localhost:3001',
 });
 export const getCardByName = async (name) => {
   return api.get(`/cards?name=${encodeURI(name)}`);
